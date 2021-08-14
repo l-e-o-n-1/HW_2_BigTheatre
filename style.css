@@ -1,0 +1,10 @@
+body {
+   margin: 0px auto;
+   padding: 0px;
+   max-width: 1920px;
+   height: 100%;
+}
+.left-block {
+   width: 150px;
+   height: 1045px;
+}
