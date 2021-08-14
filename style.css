@@ -5,7 +5,28 @@ body {
    height: 100%;
    font-family: Open Sans Condensed;
 }
+
+.header {
+   min-height: 1045px;
+}
 .left-block {
-   max-width: 150px;
+   padding-top: 0px;
+   margin: 0%;
+   min-width: 150px;
    height: 1045px;
+   /* padding-top: 380px; */
+}
+
+.site {
+   margin-top: 530px;
+}
+
+.nav-link a {
+   width: 175px;
+   font-size: 18px;
+}
+
+.menu {
+   max-width: 1110px;
+   margin-top: 60px;
 }
