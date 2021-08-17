@@ -17,16 +17,15 @@
 
 <body>
    <!-- header -->
-   <div class="header" id="link-1" style="background-image: url(img/Rectangle-3.png);
-       background-repeat: no-repeat; background-size: cover; background-position: center center; ">
+   <div class="header" id="link-1">
       <div class="container-fluid">
          <div class="row">
             <div class="col-xl-1" style="width: 150px; height: 1040px; padding: 0px;">
                <div class="left-block"
-                  style=" text-align: center; color: rgba(196, 196, 196, 1); font-size: 18px; height: 1040px; margin-top: 0px;background-color: rgba(51, 51, 51, 0.75);">
+                  style=" text-align: center; color: rgba(196, 196, 196, 1); font-size: 18px; height: 1040px; margin-top: -50px; background-color: rgba(51, 51, 51, 0.75);">
                   <div class="site" style="padding-top: 335px;">
                      <div
-                        style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg); margin-left: 50px; margin-bottom: 80px;">
+                        style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg); margin-left: 60px; margin-bottom: 80px;">
                         контактная информация
                      </div>
                      <hr align="center" width="80" size="8" color="white" style="transform: rotate(90deg);" />
@@ -48,16 +47,59 @@
             <div class="menu">
 
                <!-- Вертикальное меню -->
-               <nav class="navbar navbar-expand-lg navbar-light" ">
+               <nav class="navbar navbar-expand-lg navbar-light">
                   <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                  style="float: right;">
-                  <span class="navbar-icon"><img src="img/bx_bx-menu-alt-left.png" width="40" height="40"> </span>
+                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                     style="float: right;">
+
+                     <!-- <div class="player" onclick="togglePlay(this)">
+                        <img src="img/bx_bx-menu-alt-left.png" width="40" height="40" id="button">
+                        <audio>
+                           <source src="img/carbon_close.png" width="40" height="40" />
+                        </audio>
+                     </div>
+
+                     <script>
+                        let playIcon = "img/bx_bx-menu-alt-left.png";
+                        let pauseIcon = "img/carbon_close.png";
+
+                        function togglePlay(video) {
+                           var audio = document.getElementsByTagName("audio")[0];
+                           if (!audio)
+                              return;
+                           audio.paused ? audio.play() : audio.pause();
+                           document.getElementById("button").src = audio.paused ? playIcon : pauseIcon;
+                        }
+                     </script> -->
+
+
+                     <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                           <span></span>
+                        </label>
+
+                     </div>
+
+
+
+
+
                   </button>
+
+
+
+
+
+
+
+
+
+
                   <div class="collapse navbar-collapse" id="navbar" style="padding-left: 20%;">
                      <!-- Пункты вертикального меню -->
                      <ul class="navbar-nav"
-                        style="font-size: 18px; font-family: Open Sans Condensed; position: absolute;">
+                        style="font-size: 18px; font-family: Open Sans Condensed;top: -55px; position: absolute;">
                         <li class="nav-item">
                            <a class="nav-link" href="#link-1" style="color: white; width: 140px">ГЛАВНАЯ</a>
                         </li>
@@ -73,6 +115,23 @@
                         <li class="nav-item">
                            <a class="nav-link" href="#link-5" style="color: white;  width: 180px">КОНТАКТЫ</a>
                         </li>
+
+
+                        <p style=" width: 50px; padding-left: 30px;"><a href=""><img src="img/F.png" width="26"
+                                 height="45" alt="" style="margin: 30px 0px;"></a></p>
+                        <p style="width: 50px; position: absolute; top: 285px; left: 150px;"> <a href=""><img
+                                 src="img/instagram--active-bl.png" width="45" height="45" alt=""
+                                 style="margin-bottom: 30px;"></a></p>
+                        <p style="padding-left: 30px;"><a href=""><img src="img/youtube45.png" width="45" height="31"
+                                 alt="" style="margin-bottom: 30px;"></a>
+                        </p>
+                        <p style="width: 50px; position: absolute; top: 380px; left: 150px;"><a href=""><img
+                                 src="img/VK45.png" width="45" height="24" alt="" style="margin-bottom: 85px;"></a>
+                        </p>
+
+
+
+
                      </ul>
                   </div>
                </nav>
