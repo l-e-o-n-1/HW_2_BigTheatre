@@ -4,6 +4,11 @@ body {
    height: 100%;
    font-family: Open Sans Condensed;
    background-color: rgba(51, 51, 51, 1);
+   margin-top: 60px;
+}
+
+.header {
+   max-height: 1040px;
 }
 
 .partners {
@@ -14,6 +19,10 @@ body {
 
 .about img {
    margin-bottom: 100px;
+}
+
+.navbar-nav {
+   left: 150px;
 }
 
 /* contacts */
@@ -47,9 +56,40 @@ body {
    background-color: #565656;
 }
 
-/* 
-@media (min-width: 768px) {
-   .navbar-container {
+.first-screen__text {
+   margin-left: 21%;
+}
+
+@media (max-width: 1350px) {
+   .tel {
+      left: -29%;
+      top: 100px;
+   }
+   .navbar-nav {
+      left: 100px;
+   }
+}
+
+@media (max-width: 1250px) {
+   .carousel.slide {
+      display: none;
+   }
+
+   .collapse_navbar-collapse div {
+      padding-left: 1%;
+   }
+   .navbar-nav {
+      left: 30px;
+   }
+
+   /* .tel div {
+      padding-left: 35%;
+      margin-top: 170px;
+   } */
+}
+
+@media (max-width: 991px) {
+   /* .navbar-container {
       position: sticky;
       top: 0;
       overflow-y: auto;
@@ -72,5 +112,29 @@ body {
    }
    .navbar-container .navbar-nav {
       flex-direction: column !important;
+   } */
+
+   .left-block {
+      display: none;
    }
-} */
+
+   .tel {
+      left: 4%;
+      top: 85px;
+   }
+
+   .first-screen__text {
+      margin-left: 10%;
+   }
+
+   .first-screen {
+      margin-left: 0px;
+   }
+
+   button {
+      margin-left: -110px;
+   }
+}
+
+@media (max-width: 780px) {
+}
