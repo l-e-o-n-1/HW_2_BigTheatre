@@ -132,6 +132,22 @@ body {
    /* padding-left: 3%; */
 }
 
+/* projects */
+
+.projects {
+   height: 715px;
+   text-align: center;
+   font-family: Open Sans Condensed;
+   padding-top: 40px;
+   padding-left: 7%;
+   background-color: #333333;
+}
+.projects .carousel.slide {
+   display: none;
+}
+
+
+
 /* contacts */
 .contacts {
    height: 480px;
@@ -175,10 +191,10 @@ body {
    .navbar-nav {
       left: 100px;
    }
-}
+
 
 @media (max-width: 1250px) {
-   .carousel.slide {
+   .header .carousel.slide {
       display: none;
    }
 
@@ -195,6 +211,19 @@ body {
       padding-left: 35%;
       margin-top: 170px;
    } */
+
+
+   .projects > .container-fluid {
+      display: none;
+   }
+
+   .projects .carousel.slide {
+      display: block;
+      left: 34%;
+   }
+
+  
+   
 }
 
 @media (max-width: 991px) {
@@ -254,6 +283,14 @@ body {
    button {
       margin-left: -110px;
    }
+
+   .projects {
+      padding-top: 60px;
+}
+.projects .carousel.slide {
+   
+   left: 28%;
+}
 }
 
 @media (max-width: 766px) {
@@ -263,6 +300,14 @@ body {
 
    .tel {
       left: -7%;
+   }
+   .projects {
+      padding-top: 100px;
+      padding-left: 3%;
+   }
+   .projects .carousel.slide {
+   
+      left: 12%;
    }
 }
 /* .container {
@@ -308,4 +353,3 @@ body {
    transform: rotate(45deg) translate(-8px, -8px);
 } */
 
-/* скрываем чекбокс */
