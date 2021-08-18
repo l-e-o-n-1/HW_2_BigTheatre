@@ -29,7 +29,7 @@ body {
 }
 
 .navbar-nav {
-   background-color: #333333;
+   /* background-color: #333333; */
    margin-left: -175px;
    padding: 100px 0px 40px 40px;
 }
@@ -43,170 +43,6 @@ body {
    display: none;
 }
 
-/* contacts */
-.contacts {
-   height: 480px;
-   text-align: center;
-}
-
-.form {
-   height: 35px;
-   width: 180px;
-   background-color: #616161;
-   border-color: white;
-}
-
-/* footer */
-
-.footer {
-   height: 80px;
-   color: white;
-}
-
-.footer p {
-   font-family: Open Sans Condensed;
-   font-size: 12px;
-   color: #989898;
-}
-
-.footer hr {
-   border-top-width: 2px;
-   background-color: #565656;
-}
-
-.first-screen__text {
-   margin-left: 21%;
-}
-
-@media (max-width: 1350px) {
-   .tel {
-      left: -29%;
-      top: 100px;
-   }
-   .navbar-nav {
-      left: 100px;
-   }
-}
-
-@media (max-width: 1250px) {
-   .carousel.slide {
-      display: none;
-   }
-
-   .collapse_navbar-collapse div {
-      padding-left: 1%;
-   }
-   .navbar-nav {
-      left: 30px;
-   }
-
-   /* .tel div {
-      padding-left: 35%;
-      margin-top: 170px;
-   } */
-}
-
-@media (max-width: 991px) {
-   .navbar-container {
-      position: sticky;
-      top: 0;
-      overflow-y: auto;
-      height: 100vh;
-   }
-
-   .navbar-container .navbar {
-      align-items: flex-start;
-      justify-content: flex-start;
-      flex-wrap: nowrap;
-      flex-direction: column;
-      height: 100%;
-   }
-   .navbar-container .navbar-collapse {
-      align-items: flex-start;
-   }
-   .navbar-container .nav {
-      flex-direction: column;
-      flex-wrap: nowrap;
-   }
-   .navbar-container .navbar-nav {
-      flex-direction: column !important;
-   }
-
-   .left-block {
-      display: none;
-   }
-
-   .menu p {
-      display: block;
-   }
-   .tel {
-      left: 4%;
-      top: 65px;
-   }
-
-   .first-screen__text {
-      margin-left: 10%;
-   }
-
-   .first-screen {
-      margin-left: 0px;
-   }
-   .navbar-nav {
-      margin-top: 10px;
-      left: -150px;
-   }
-
-   button {
-      margin-left: -110px;
-   }
-}
-
-@media (max-width: 780px) {
-}
-
-/* .container {
-   display: inline-block;
-   cursor: pointer;
-   position: absolute;
-}
-
-.bar1 {
-   width: 35px;
-   height: 5px;
-   background-color: rgb(243, 239, 239);
-   margin: 6px 0;
-   transition: 0.1s;
-}
-
-.bar2 {
-   width: px;
-   height: 5px;
-   background-color: rgb(243, 239, 239);
-   margin: 6px 0;
-   transition: 0.1s;
-}
-.bar3 {
-   width: 15px;
-   height: 5px;
-   background-color: rgb(243, 239, 239);
-   margin: 6px 0;
-   transition: 0.1s;
-}
-
-.change .bar1 {
-   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-   transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {
-   opacity: 0;
-}
-
-.change .bar3 {
-   -webkit-transform: rotate(45deg) translate(-8px, -8px);
-   transform: rotate(45deg) translate(-8px, -8px);
-} */
-
 /* скрываем чекбокс */
 #menu__toggle {
    opacity: 0;
@@ -215,9 +51,9 @@ body {
 .menu__btn {
    display: flex; /* используем flex для центрирования содержимого */
    align-items: flex-end; /* центрируем содержимое кнопки */
-   position: fixed;
-   top: 50px;
-   left: 180px;
+   position: absolute;
+   top: 0px;
+   left: 10px;
    width: 16px;
    height: 26px;
    cursor: pointer;
@@ -288,3 +124,188 @@ body {
    visibility: visible;
    left: 0;
 }
+
+/* about */
+.about > .container-fluid {
+   text-align: left;
+   width: 85%;
+   /* padding-left: 3%; */
+}
+
+/* contacts */
+.contacts {
+   height: 480px;
+   text-align: center;
+}
+
+.form {
+   height: 35px;
+   width: 180px;
+   background-color: #616161;
+   border-color: white;
+}
+
+/* footer */
+
+.footer {
+   height: 80px;
+   color: white;
+}
+
+.footer p {
+   font-family: Open Sans Condensed;
+   font-size: 12px;
+   color: #989898;
+}
+
+.footer hr {
+   border-top-width: 2px;
+   background-color: #565656;
+}
+
+.first-screen__text {
+   margin-left: 21%;
+}
+
+@media (max-width: 1350px) {
+   .tel {
+      left: -29%;
+      top: 100px;
+   }
+   .navbar-nav {
+      left: 100px;
+   }
+}
+
+@media (max-width: 1250px) {
+   .carousel.slide {
+      display: none;
+   }
+
+   .collapse_navbar-collapse div {
+      padding-left: 1%;
+   }
+   .navbar-nav {
+      left: 30px;
+   }
+   .theatreimg div {
+      display: none;
+   }
+   /* .tel div {
+      padding-left: 35%;
+      margin-top: 170px;
+   } */
+}
+
+@media (max-width: 991px) {
+   .navbar-container {
+      position: sticky;
+      top: 0;
+      overflow-y: auto;
+      height: 100vh;
+   }
+
+   .navbar-container .navbar {
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      height: 100%;
+   }
+   .navbar-container .navbar-collapse {
+      align-items: flex-start;
+   }
+   .navbar-container .nav {
+      flex-direction: column;
+      flex-wrap: nowrap;
+   }
+   .navbar-container .navbar-nav {
+      flex-direction: column !important;
+   }
+
+   .navbar-nav {
+      background-color: #333333;
+   }
+
+   .left-block {
+      display: none;
+   }
+
+   .menu p {
+      display: block;
+   }
+   .tel {
+      left: 0%;
+      top: 65px;
+   }
+
+   .first-screen__text {
+      margin-left: 10%;
+   }
+
+   .first-screen {
+      margin-left: 0px;
+   }
+   .navbar-nav {
+      margin-top: 70px;
+      left: -150px;
+   }
+
+   button {
+      margin-left: -110px;
+   }
+}
+
+@media (max-width: 766px) {
+   .about > .container-fluid {
+      text-align: center;
+   }
+
+   .tel {
+      left: -7%;
+   }
+}
+/* .container {
+   display: inline-block;
+   cursor: pointer;
+   position: absolute;
+}
+
+.bar1 {
+   width: 35px;
+   height: 5px;
+   background-color: rgb(243, 239, 239);
+   margin: 6px 0;
+   transition: 0.1s;
+}
+
+.bar2 {
+   width: px;
+   height: 5px;
+   background-color: rgb(243, 239, 239);
+   margin: 6px 0;
+   transition: 0.1s;
+}
+.bar3 {
+   width: 15px;
+   height: 5px;
+   background-color: rgb(243, 239, 239);
+   margin: 6px 0;
+   transition: 0.1s;
+}
+
+.change .bar1 {
+   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+   transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+   opacity: 0;
+}
+
+.change .bar3 {
+   -webkit-transform: rotate(45deg) translate(-8px, -8px);
+   transform: rotate(45deg) translate(-8px, -8px);
+} */
+
+/* скрываем чекбокс */
