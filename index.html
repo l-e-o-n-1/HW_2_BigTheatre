@@ -397,25 +397,112 @@
          </h2>
          <div class="container-fluid">
             <div class="row">
-               <div class="col-md-2 col-lg-2 offset-2">
+               <div class="col-md-3 col-lg-3 col-xl-2 offset-xl-1">
                   <img src="img/logo.png">
                   <img src="img/logo.png">
                </div>
-               <div class="col-md-2 col-lg-2">
+               <div class="col-md-3 col-lg-3 col-xl-3" style="padding-left: 6%;">
                   <img src="img/logo.png">
                   <img src="img/logo.png">
                </div>
-               <div class="col-md-2 col-lg-2">
+               <div class="col-md-3 col-lg-3 col-xl-3 ">
                   <img src="img/logo.png">
                   <img src="img/logo.png">
                </div>
-               <div class="col-md-2 col-lg-2">
+               <div class="col-md-3 col-lg-3 col-xl-2 ">
                   <img src="img/logo.png">
                   <img src="img/logo.png">
                </div>
             </div>
          </div>
       </div>
+
+
+
+
+      <div id="multiCarousel" class="carousel slide w-100" data-ride="carousel">
+         <div class="carousel-inner w-100" role="listbox" style="left: 18%;">
+            <div class="carousel-item active">
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+               </div>
+            </div>
+         </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#multiCarousel" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Предыдущий</span>
+      </a>
+      <a class="carousel-control-next" href="#multiCarousel" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Cледующий</span>
+      </a>
+   </div>
+
+
+
+   <!-- <script>
+         $('#multiCarousel').carousel({
+            interval: 10000
+         })
+         $('.carousel .carousel-item').each(function () {
+            var next = $(this).next();
+            if (!next.length) {
+               next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            for (var i = 0; i < 2; i++) {
+               next = next.next();
+               if (!next.length) {
+                  next = $(this).siblings(':first');
+               }
+
+               next.children(':first-child').clone().appendTo($(this));
+            }
+         });
+      </script> -->
+
+
+
    </div>
 
 
