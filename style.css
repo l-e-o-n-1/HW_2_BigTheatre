@@ -380,7 +380,6 @@ body {
    display: none;
 }
 
-
 .submit {
    right: 10%;
 
@@ -393,9 +392,6 @@ body {
 .carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0%);} */
 
 
-
-
-
 @media (max-width: 576px) {
 
 .theat {
@@ -405,52 +401,4 @@ body {
 .star img {
    margin-left: 34%;
 }
-
-
-
 }
-
-
-/* .container {
-   display: inline-block;
-   cursor: pointer;
-   position: absolute;
-}
-
-.bar1 {
-   width: 35px;
-   height: 5px;
-   background-color: rgb(243, 239, 239);
-   margin: 6px 0;
-   transition: 0.1s;
-}
-
-.bar2 {
-   width: px;
-   height: 5px;
-   background-color: rgb(243, 239, 239);
-   margin: 6px 0;
-   transition: 0.1s;
-}
-.bar3 {
-   width: 15px;
-   height: 5px;
-   background-color: rgb(243, 239, 239);
-   margin: 6px 0;
-   transition: 0.1s;
-}
-
-.change .bar1 {
-   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-   transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {
-   opacity: 0;
-}
-
-.change .bar3 {
-   -webkit-transform: rotate(45deg) translate(-8px, -8px);
-   transform: rotate(45deg) translate(-8px, -8px);
-} */
-
