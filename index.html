@@ -4,93 +4,533 @@
 <head>
    <!-- Required meta tags -->
    <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+   <title>HW2_BigTheatre</title>
    <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="css\bootstrap.css">
-
-   <title>Hello, world!</title>
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-
-
 <body>
-
-   <div class="header" style="background-image: url(img/Rectangle-3.png);
-    background-repeat: no-repeat; background-size: cover; background-position: center center;">
-
+   <!-- header -->
+   <div class="header" id="link1">
       <div class="container-fluid">
          <div class="row">
-
-
-
-            <div class="col-xl-1">
-               <div class="left-block" style="background-color: #C4C4C4;">
-
+            <div class="col-xl-1" style="width: 150px; height: 1040px; padding: 0px;">
+               <div class="left-block"
+                  style=" text-align: center; color: rgba(196, 196, 196, 1); font-size: 18px; height: 1040px; margin-top: -50px; background-color: rgba(51, 51, 51, 0.75);">
+                  <div class="site" style="padding-top: 335px;">
+                     <div
+                        style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg); margin-left: 40%; margin-bottom: 80px;">
+                        контактная информация
+                     </div>
+                     <hr align="center"
+                        style="transform: rotate(90deg); background-color:rgb(248, 248, 247); width: 80px; margin-top: 0px; border-width: 3px;">
+                     <br />
+                     <!-- <hr width="150px" style="transform: rotate(90deg);"> -->
+                     <p><a href=""><img src="img/instagram--active.png" width="26" height="26" alt=""
+                              style="margin: 30px 0px;"></a></p>
+                     <p><a href=""><img src="img\Vector.png" width="15" height="26" alt=""
+                              style="margin-bottom: 30px;"></a></p>
+                     <p><a href=""><img src="img\vk.png" width="26" height="14" alt="" style="margin-bottom: 30px;"></a>
+                     </p>
+                     <p><a href=""><img src="img\youtube.png" width="26" height="18" alt=""
+                              style="margin-bottom: 85px;"></a></p>
+                  </div>
                </div>
             </div>
+            <div class="menu">
 
-            <div class="col-xl-11">
-               <div class="col-xl-1 offset-xl-2">
-                  <a class="nav-link" href="#div1">ГЛАВНАЯ </a>
-               </div>
-               <div class="col-xl-1">
-                  <a class="nav-link" href="#div2">О ТЕАТРЕ </a>
-               </div>
-               <div class="col-xl-1">
-                  <a class="nav-link" href="#div3">НАШИ ПОСТАНОВКИ </a>
-               </div>
-               <div class="col-xl-1">
-                  <a class="nav-link" href="#div4">ПАРТНЕРЫ ТЕАТРА </a>
-               </div>
-               <div class="col-xl-1">
-                  <a class="nav-link" href="#div5">КОНТАКТЫ </a>
-               </div>
+               <!-- Вертикальное меню -->
+               <nav class="navbar navbar-expand-lg navbar-light">
+                  <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                     style="float: right;">
+                     <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                           <span></span>
+                        </label>
+                     </div>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbar" style="padding-left: 20%;">
+                     <!-- Пункты вертикального меню -->
+                     <ul class="navbar-nav"
+                        style="font-size: 18px; font-family: Open Sans Condensed; top: -120px; position: absolute;">
+                        <li class="nav-item">
+                           <a class="nav-link" href="#link1" style="color: white; width: 140px">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#link2" style="color: white;  width: 125px">О ТЕАТРЕ</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#link3" style="color: white; width: 210px;">НАШИ ПОСТАНОВКИ</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#link4" class="nav-link" style="color: white;  width: 190px">ПАРТНЕРЫ ТЕАТРА</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#link5" style="color: white;  width: 180px">КОНТАКТЫ</a>
+                        </li>
 
-               <div class="col-xl-2 offset-xl-1">
-                  <a class="nav-link" href="#div6">+7 495 123-45-67 </a>
-                  <hr width="100px">
-               </div>
-               <!-- <div class="col-xl-2"></div> -->
+                        <p style=" width: 50px; padding-left: 30px;"><a href=""><img src="img/F.png" width="26"
+                                 height="45" alt="" style="margin: 30px 0px;"></a></p>
+                        <p style="width: 50px; position: absolute; top: 342px; left: 150px;"> <a href=""><img
+                                 src="img/instagram--active-bl.png" width="45" height="45" alt=""
+                                 style="margin-bottom: 30px;"></a></p>
+                        <p style="padding-left: 30px;"><a href=""><img src="img/youtube45.png" width="45" height="31"
+                                 alt="" style="margin-bottom: 30px;"></a>
+                        </p>
+                        <p style="width: 50px; position: absolute; top: 440px; left: 150px;"><a href=""><img
+                                 src="img/VK45.png" width="45" height="24" alt="" style="margin-bottom: 85px;"></a>
+                        </p>
+                     </ul>
+                  </div>
+               </nav>
             </div>
-
-
+            <div class="tel" style="padding-left: 73%; position: absolute">
+               <a href="#link5" style="color: white; font-size: 16px; text-decoration: none;">+7
+                  495 123-45-67
+                  <hr
+                     style=" background-color:rgba(209, 169, 84, 1); width: 120px; margin-top: 0px; border-width: 3px;">
+               </a>
+            </div>
          </div>
+         <div class="container-fluid" style="text-align: left;">
+            <div class="row">
+               <div class="first-screen__text"
+                  style="color: white; width: 540px; font-family: Open Sans Condensed; margin-top: -650px;">
+                  <h1 style="font-size: 64px; font-weight: bold
+               ; font-family: Open Sans Condensed;">БОЛЬШОЙ ТЕАТР</h1>
+                  <p style="font-family: Open Sans; font-size: 14px; margin-top: 40px;">Большо́й теа́тр —
+                     петербургский
+                     театр, существовавший
+                     в 1784—1886 годах, с 1886 года — Петербургская
+                     консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших
+                     театральных зданий в Европе XVIII.</p>
+                  <button class="first-screen"
+                     style="background-color :rgba(209, 169, 84, 1); width: 160px; border: none; margin-top: 50px;">
+                     <p style="color: white; margin: 8px; font-size: 18px; letter-spacing: 5px;letter-spacing:3px;">
+                        АФИША</p>
+                  </button>
+               </div>
 
-
-
-
-
-         <!-- <div id="div1">TEST 1</div> -->
-
-
-
-
-
-
+               <div id="carous" class="carousel slide" data-ride="carousel"
+                  style="margin-top: -770px; margin-left: 4.4%; font-size: 18px; font-family: Open Sans Condensed; color: rgba(196, 196, 196, 1);"
+                  data-interval="false">
+                  <!-- The slideshow -->
+                  <div class="carousel-inner" style="position: absolute;">
+                     <div class="carousel-item active" style="width: 300px;">
+                        <img src="img/image_3.png" alt="">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="img/image_3.png" alt="">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="img/image_3.png" alt="">
+                     </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev" href="#carous" data-slide="prev">
+                     <span class="carousel-control-prev" style="margin-top: 360px;"> <img src="img/Arrow-2.png" alt=""
+                           style="margin-left: 85px; padding-right: 20px ">ПРЕД</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carous" data-slide="next" style="right: 50px;">
+                     <span class="carousel-control-next" style="margin-top: 360px;">СЛЕД <img src="img/Arrow-1.png"
+                           alt="" style="margin-left: 20px;"></span>
+                  </a>
+                  <div>
+                     <img src="img/image_4.png" alt="" style="margin-top: 20px; margin-left: 20px;">
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
+   </div>
 
-
+   <!-- <about> -->
+   <div class="about" id="link2"
+      style="height: 740PX; text-align: center; font-family: Open Sans Condensed; padding-top: 150px;">
+      <h2
+         style="color: rgba(209, 169, 84, 1); margin-bottom: 50px; font-size: 48px; font-family: Open Sans Condensed; color: rgba(209, 169, 84, 1); font-weight: 300; letter-spacing: 5px;">
+         O <span style="color: white;">ТЕАТРЕ</span>
+      </h2>
+      <div class="container-fluid_theatre">
+         <div class="row">
+            <div class=" col-sm-12 col-md-5 col-lg-4  offset-md-1 offset-lg-2" style="color: white;">
+               <p style="font-size: 21px;">САМЫЙ ЛУЧШИЙ ТЕАТР СПБ</p>
+               <P
+                  style="font-size: 14px; font-family: Open Sans; font-weight: 300; margin-top: 35px; padding-right: 38px;">
+                  Как
+                  свидетельствуют архивные
+                  документы, первое каменное
+                  здание Большого театра
+                  начали возводить в 1775 году
+                  по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично
+                  наблюдать
+                  за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу
+                  Тишбейну
+                  создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым.
+                  Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно
+                  считать 1784 год.
+               </P>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3" style="color: white; margin-top: -16px; min-width: 200px;">
+               <p style="color: white;  text-align: left;">
+               <p style="font-size: 21px;">НЕМНОГО О ЦИФРАХ</p>
+               <img src="img/armchair_1.png" style="width: 70px; height: 70px; margin-bottom: 12px; margin-top: 20px;">
+               <p style="color: rgba(209, 169, 84, 1);">1600 <span style="color: white;">посадочный
+                     мест</span></p>
+               <img src="img/theater_1.png" style="width: 70px; height: 70px; margin-bottom: 12px;">
+               <p style="color: rgba(209, 169, 84, 1);">350 <span style="color: white;"> лет истории</span></p>
+            </div>
+            <div class="theatreimg" style="margin-left: -115px;">
+               <div class="col-md-4 col-lg-2">
+                  <img src="img/Rectangle_12.png" style="width: 350px; height: 292px; margin-left: 100%;">
+               </div>
+            </div>
+         </div>
+      </div>
    </div>
 
 
+   <!-- projects -->
+   <div class="projects">
+      <div class="projects" id="link3">
+         <h2
+            style="color: rgba(209, 169, 84, 1); margin-bottom: 100px; font-size: 48px; font-family: Open Sans Condensed; font-weight: 300; letter-spacing: 5px;">
+            НАШИ <span style="color: white; padding-right: 10%; ">ПОСТАНОВКИ</span>
+         </h2>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-3 col-lg-3"
+                  style=" padding: 0px; color: white; font-family: Open Sans Condensed; right: 0px;">
+                  <a target="_blank" href="img/Rectangle_18-1.png">
+                     <img class="img-fluid" src="img/Rectangle_18.png"></a>
+                  <h4 style="margin-top: -115%; font-family: Open Sans Condensed;font-size: 24px; margin-right: 55%;">
+                     ОСКАР 2020</h4>
+                  <p
+                     style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg); margin-left: 8%; margin-top: 62%; font-size: 18px; font-family: Open Sans Condensed;">
+                     СЕНТЯБРЬ 2020</p>
+               </div>
+               <div class="col-md-3 col-lg-3" style="padding: 0px; color: white; right: 0px;">
+                  <a target="_blank" href="img/Rectangle_17.png">
+                     <img class="img-fluid" src="img/Rectangle_17.png"></a>
+                  <img src="img/Group_9.png" style="width: 100px; height: 100px; margin-top: -135%;">
+               </div>
+               <div class="col-md-3 col-lg-3" style="padding: 0px; color: white; right: 0px;">
+                  <a target="_blank" href="img/Rectangle_16-1.png">
+                     <img class="img-fluid" src="img/Rectangle_16.png"></a>
+                  <h4 style="margin-top: -115%; margin-right: 22%;">ЗОЛОТОЙ ГРАМОФОН</h4>
+                  <p
+                     style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg); margin-left: 9%; margin-top: 73%; font-size: 18px; font-family: Open Sans Condensed;">
+                     ИЮЛЬ 2020</p>
+               </div>
+               <div class="col-md-3 col-lg-3" style="padding: 0px; color: white; right: 0px;">
+                  <a target="_blank" href="img/Rectangle_15-1.png">
+                     <img class="img-fluid" src="img/Rectangle_15.png"></a>
+                  <h4 style="margin-top: -115%; margin-right: 50%;">ЩЕЛКУНЧИК</h4>
+                  <p
+                     style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg); margin-left: 9%; margin-top: 76%; font-size: 18px; font-family: Open Sans Condensed;">
+                     МАЙ 2020</p>
+               </div>
+            </div>
+         </div>
+         <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel"
+            style="position: absolute; text-align: center;">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="col-md-12 col-lg-12 col-xl-12"
+                     style="padding: 0px; height: 550px; color: white; right: 0px;">
+                     <a target="_blank" href="img/Rectangle_18-1.png" class="d-block w-100" alt="">
+                        <img class="img-fluid" src="img/Rectangle_18.png"></a>
+                     <div class="carousel-caption d-md-block">
+                        <h4
+                           style="margin-top: -150%;  font-family: Open Sans Condensed;font-size: 24px; margin-left: -80%;">
+                           ОСКАР 2020</h4>
+                        <p
+                           style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg);height: 150px; margin-left: -10%; margin-top: 87%; font-size: 18px; font-family: Open Sans Condensed;">
+                           СЕНТЯБРЬ 2020</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="col-md-12 col-lg-12 col-xl-12"
+                     style="padding: 0px; height: 550px; color: white; right: 0px;">
+                     <a target="_blank" href="img/Rectangle_17.png" class="d-block w-100" alt="">
+                        <img class="img-fluid" src="img/Rectangle_17.png"></a>
+                     <img src="img/Group_9.png" style="width: 100px; height: 100px; margin-top: -135%;">
+                  </div>
+
+               </div>
+               <div class="carousel-item">
+                  <div class="col-md-12 col-lg-12 col-xl-12"
+                     style="padding: 0px; height: 550px; color: white; right: 0px;">
+                     <a target target="_blank" href="img/Rectangle_16-1.png" class="d-block w-100" alt="">
+                        <img class="img-fluid" src="img/Rectangle_16.png"></a>
+                     <div class="carousel-caption  d-md-block">
+                        <h4 style="margin-top: -150%; margin-right: 32%;">ЗОЛОТОЙ ГРАМОФОН</h4>
+                        <p
+                           style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg);height: 150px; margin-left: -3%; margin-top: 87%; font-size: 18px; font-family: Open Sans Condensed;">
+                           ИЮЛЬ 2020</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="col-md-12 col-lg-12 col-xl-12"
+                     style="padding: 0px; height: 550px; color: white; right: 0px;">
+                     <a target="_blank" href="img/Rectangle_15-1.png" class="d-block w-100" alt="">
+                        <img class="img-fluid" src="img/Rectangle_15.png"></a>
+                     <div class="carousel-caption  d-md-block">
+                        <h4 style="margin-top: -150%; margin-right: 60%;">ЩЕЛКУНЧИК</h4>
+                        <p
+                           style="-webkit-writing-mode: vertical-rl; writing-mode:tb-rl; transform: rotate(180deg);height: 150px; margin-left: 0%; margin-top: 87%; font-size: 18px; font-family: Open Sans Condensed;">
+                           МАЙ 2020</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+            </a>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- STAR -->
+
+   <div class=" col-xl-8 col-lg-10 col-md-12 col-sm-12  offset-lg-1 offset-xl-2">
+      <div class="star" style=" text-align: center;">
 
 
 
+         <div class="col-sm-2 col-md-2 col-lg-4 " style="font-family: Open Sans Condensed; font-size: 72px; font-weight: bold; color: rgba(209, 169, 84, 1); margin-top: -35%;
+            margin-left: 11%;">
+            <p style="padding-top: 100px">2018</p>
+            <p style="margin-top: -20px;">2019</p>
+            <p style="margin-top: -20px;">2020</p>
+         </div>
+         <div class="col-sm-10 col-md-10 col-lg-8" style="float: right;">
+            <img src="img/stars.png">
+            <div class="theat" style="max-width: 540px; margin-top: -235px; text-align: left;">
+               Лучший театр <br> по мнению театральных критиков Парижа</p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- partners -->
+   <div class="partners">
+      <div class="about" id="link4">
+         <h2 style="color: rgba(209, 169, 84, 1); font-size: 48px; font-family: Open Sans Condensed; color: rgba(209, 169, 84, 1);
+        font-weight: 300; letter-spacing: 5px; margin-bottom: 100px; ">
+            ПАРТНЕРЫ <span style="color: white;">ТЕАТРА</span>
+         </h2>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-3 col-lg-3 col-xl-2 offset-xl-1" style="padding-right: 22%">
+                  <img src="img/logo.png">
+                  <img src="img/logo.png">
+               </div>
+               <div class="col-md-3 col-lg-3 col-xl-3">
+                  <img src="img/logo.png">
+                  <img src="img/logo.png">
+               </div>
+               <div class="col-md-3 col-lg-3 col-xl-3 ">
+                  <img src="img/logo.png">
+                  <img src="img/logo.png">
+               </div>
+               <div class="col-md-3 col-lg-3 col-xl-2 ">
+                  <img src="img/logo.png">
+                  <img src="img/logo.png">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="multiCarousel" class="carousel slide w-100" data-ride="carousel">
+         <div class="carousel-inner w-100" role="listbox" style="left: 18%;
+            padding-right: 24%;">
+            <div class="carousel-item active">
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100" style="margin-top: 10%;">
+               </div>
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100" style="margin-top: 10%;">
+               </div>
+               <div class="sm">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100" style="margin-top: 10%;">
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100" style="margin-top: 10%;">
+               </div>
+               <div>
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100" style="margin-top: 10%;">
+               </div>
+               <div class="sm">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100">
+                  <img class="d-block col-10" src="img/logo.png" max-width="200" height="100" style="margin-top: 10%;">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
 
 
+   <!-- contacts -->
+   <div class="contacts">
+      <div class="about" id="link5">
+         <h2 style="color: rgba(209, 169, 84, 1); font-size: 48px; font-family: Open Sans Condensed; color: rgba(209, 169, 84, 1);
+        font-weight: 300; letter-spacing: 5px; margin-bottom: 90px;">
+            СТАТЬ <span style="color: white;">МЕЦЕНАТОМ</span>
+         </h2>
+         <div class="container-fluid_contacts">
+            <div class="row" style="text-align: left;">
+               <div class="col-xl-4 d-none d-xl-block"
+                  style="color: white; font-family: Open Sans Condensed; font-size: 16px;">
+                  <div class="col-xl-6 offset-xl-6">
+                     <div class="cont_lg">
+                        <p>+7 (812) 123-45-55</p>
+                        <p>+7 (812) 123-45-66</p>
+                        <p>INFO@THEATER.RU</p>
+                        <p>Г. САНКТ-ПЕТЕРБУРГ, НЕВСКИЙ 140</p>
+                     </div>
+                  </div>
+               </div>
+               <div class=" col-sm-12 col-md-8 col-lg-6 col-xl-4" style="color: #989898; ">
+                  <div class="row">
+                     <div
+                        class=" col- 9 offset-2 col-sm-9 offset-sm-3 col-md-4 offset-md-1 col-lg-3 offset-lg-3 col-xl-3 offset-xl-1"
+                        style="float: right; margin-right: 15px;">
+                        <form>
+                           <input type="text" placeholder="Имя" name="" style="height: 35px; padding-left: 12px;
+                        max-width: 172px;
+                        color: #989898;
+                        background-color: #616161;
+                        border-color: #989898;
+                        margin-bottom: 30px;">
+                           <input type="text" placeholder="Телефон" name="" style="height: 35px; padding-left: 12px;
+                        max-width: 172px;
+                        color: #989898;
+                        background-color: #616161;
+                        border-color: #989898;
+                        margin-bottom: 30px;">
+                        </form>
+                     </div>
+                     <div
+                        class="col- 9 offset-2 col-sm-9 offset-sm-3 col-md-4 offset-md-1 col-lg-4 offset-lg-1 col-xl-3 offset-xl-2">
+                        <form>
+                           <input type="text" placeholder="Компания" name="" style="height: 35px; padding-left: 12px;
+                        max-width: 172px;
+                        color: #989898;
+                        background-color: #616161;
+                        border-color: #989898;
+                        margin-bottom: 30px;">
+                           <input type="text" placeholder="E-mail" name="" style="height: 35px; padding-left: 12px;
+                        max-width: 172px;
+                        color: #989898;
+                        background-color: #616161;
+                        border-color: #989898;
+                        margin-bottom: 30px;">
+                        </form>
+                     </div>
+                     <div class="offset-lg-2 offset-xl-0 d-none d-xl-block d-lg-block d-md-block">
+                        <p
+                           style="font-style: Open Sans; font-size: 12px; font-weight: 300; color: #989898 ; padding-left: 11%; padding-right: 20%;">
+                           * Ваши
+                           данные не будут
+                           переданы
+                           третьим лицам, 100%
+                           вероятность. Конфиденциальность мы
+                           гарантируем,
+                           и защищаем персональные данные согласно законку ФЗ-52.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class=" col- 10 offset-2 col-sm-7 offset-sm-3 col-md-3 col-lg-4 offset-md-0 col-xl-2 offset-xl-0"
+                  style="padding: 0 0 0 30px;">
+                  <div class="row">
+                     <textarea placeholder="Сообщение" style="height: 35px; padding-left: 12px;
+                  width: 350px; min-height: 100px ;               
+                  color: #989898;
+                  background-color: #616161;
+                  border-color: #989898;
+                  margin-bottom: 30px;"></textarea>
+                     <div class="submit">
+                        <input type="submit" value="ОТПРАВИТЬ" name="" style="height: 35px;
+                  width: 190px; height: 50px ;               
+                  color: white;
+                  background-color:  rgba(209, 169, 84, 1);
+                  border-color: #989898;top: 130px;
+                   position: absolute; right: -3%; letter-spacing: 3px;">
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col- 10 offset-0 col-sm-10 offset-sm-2 d-md-none d-sm-block" style="margin-top: 80px;">
+                  <p
+                     style="font-style: Open Sans; text-align: center; font-size: 12px; font-weight: 300; color: #989898 ; padding-left: 11%; padding-right: 20%;">
+                     * Ваши
+                     данные не будут
+                     переданы
+                     третьим лицам, 100%
+                     вероятность. Конфиденциальность мы
+                     гарантируем,
+                     и защищаем персональные данные согласно законку ФЗ-52.</p>
+               </div>
+               <div class="col-sm-12 d-xl-none d-block" style="top: 30px;">
+                  <div class="row">
+                     <div class="col-5 offset-0 col-sm-5 offset-sm-1 col-md-3 offset-md-2"
+                        style="color: white; font-family: Open Sans Condensed; font-size: 16px;">
+                        <p>+7 (812) 123-45-55</p>
+                        <p>+7 (812) 123-45-66</p>
+                     </div>
+
+                     <div class="col-7  col-sm-5 col-md-5 offset-md-"
+                        style="color: white; font-family: Open Sans Condensed; font-size: 16px; text-align: right;">
+                        <p>INFO@THEATER.RU</p>
+                        <p>Г. САНКТ-ПЕТЕРБУРГ, НЕВСКИЙ 140</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   </div>
+   </div>
 
 
-
-
-
-
-
-
-
-
-
-
+   <!-- <footer> -->
+   <div class="footer">
+      <div class="container-fluid">
+         <div class="row" style="text-align: left;">
+            <hr text-align=" center" width="70%" style="margin-top: 30px; ">
+            <div class="col-lg-5 offset-lg-2 col-md-5 col-sm-6 offset-sm-1" style="float: right;">
+               <p>(с) Все права защищены. Большой театр. 2020</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 offset-sm-1">
+               <p style="padding-left: 25%;">Разработано d-e-n.ru</p>
+            </div>
+         </div>
+      </div>
+   </div>
 
 
    <!-- Optional JavaScript -->
